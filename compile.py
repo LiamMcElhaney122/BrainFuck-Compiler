@@ -100,13 +100,13 @@ declare void @input(i8**)
             for i in range(max(int(count), 1)):
                 output_fd.write(get_char())
         elif operation == "[":
-            print(f"Loop start for loop {loop_count}")
+           
             loop_tracker.append(loop_count)
             output_fd.write(start_loop(loop_count))
             loop_count += 1
         elif operation == "]":
             loop_i = loop_tracker.pop()
-            print(f"Loop end for loop {loop_i}")
+          
             output_fd.write(end_loop(loop_i))
         else:
             print("Error")
