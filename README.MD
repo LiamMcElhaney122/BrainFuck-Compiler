@@ -45,10 +45,10 @@ Before using the compiler, make sure you have the following installed:
     ```
 
 ## TODO
-Implement more optimization passes for generated LLVM IR
-Add a linked list struct instead of a static array on the heap (dynamic resizing)
-Add support for more instructions, ie * for multiply, / for divide
-Add support for libc function calls and/or direct syscalls
+ - Implement more optimization passes for generated LLVM IR
+ - Add a linked list struct instead of a static array on the heap (dynamic resizing)
+ - Add support for more instructions, ie * for multiply, / for divide
+ - Add support for libc function calls and/or direct syscalls
 
 
 
