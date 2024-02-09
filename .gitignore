@@ -1,0 +1,5 @@
+*.ir
+*.ll
+!bflib.11
+*.o
+*.test
