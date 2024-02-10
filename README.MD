@@ -22,7 +22,7 @@ Before using the compiler, make sure you have the following installed:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/brainfuck-compiler.git
+   git clone https://github.com/LiamMcElhaney/brainfuck-compiler.git
    ```
 
 2. Write your brainfuck code, or use the hello world example:
